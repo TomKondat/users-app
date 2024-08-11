@@ -1,0 +1,21 @@
+.header {
+  background-color: beige;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-menu {
+  background-color: orange;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-menu ul li {
+  display: inline;
+  margin-right: 25px;
+  padding: 7px;
+}
