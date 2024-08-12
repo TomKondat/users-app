@@ -1,12 +1,13 @@
 import "./layout.css";
 import Navbar from "./Navbar";
-const Header = () => {
+const Header = ({filteredArr}) => {
+
     return (
         <>
         <header className="header"> 
-        <h1>Love Me!</h1>
+        <h1>Love Me</h1>
         </header>
-        <Navbar />
+        <Navbar filteredArr={filteredArr}/>
         </>
     );
 };

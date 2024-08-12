@@ -49,14 +49,6 @@
   width: 100%;
 }
 
-.container {
-  width: 70vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-}
-
 .card-button {
   background: linear-gradient(135deg, #e86956 0%, #f50404 100%);
   border: none;
